@@ -17,7 +17,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 20px 140px;
+  padding: 30px 140px;
   height: 12vh;
   background-color: rgba(0, 0, 0, 0.678);
 }
@@ -42,9 +42,29 @@ body {
 }
 
 .header-right select {
-  padding: 6px 12px;
+  padding: 2px 8px 2px 8px;
   font-size: 15px;
   border-radius: 4px;
+  border: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.header-right i {
+  color: white;
+  font-size: 12px;
+  padding-left: 4px;
+}
+
+.header-sel {
+  width: 120px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid rgb(127, 114, 114);
+  border-radius: 4px;
+  padding-left: 6px;
 }
 
 /* header end */
@@ -67,26 +87,64 @@ body {
 }
 
 .hero-section h1 {
-  font-size: 50px;
+  font-size: 3rem;
   font-weight: 900;
+  margin-bottom: 16px;
 }
 
 #pricing-para {
-  padding: 24px 0;
   font-weight: 600;
-  font-size: 17px;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+.hero-section h3 {
+  color: rgb(255, 255, 255);
+  font-family: unset;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 .hero-section form {
-  margin-top: 20px;
+  margin-top: 15px;
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
+.input-box {
+  width: 45vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .hero-section form input {
-  width: 360px;
-  height: 48px;
+  height: 54px;
+  width: 365px;
+  font-size: 15px;
+  padding-left: 16px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  border: 1px solid rgb(72, 72, 72);
+  border-radius: 4px;
+}
+
+.hero-section button {
+  margin-top: 15px;
+  width: 200px;
+  height: 54px;
+  background-color: rgba(255, 0, 0, 0.918);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 /* hero section end */
