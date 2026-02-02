@@ -30,6 +30,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-top: 15px;
 }
 
 .header-right a {
@@ -47,7 +48,7 @@ body {
   border-radius: 4px;
   border: none;
   color: white;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.001);
 }
 
 .header-right i {
@@ -65,6 +66,7 @@ body {
   border: 1px solid rgb(127, 114, 114);
   border-radius: 4px;
   padding-left: 6px;
+  background-color: rgba(2, 2, 2, 0.6);
 }
 
 /* hero section */
@@ -98,7 +100,6 @@ body {
 
 .hero-section h3 {
   color: rgb(255, 255, 255);
-  font-family: unset;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -125,7 +126,7 @@ body {
   padding-left: 16px;
   background-color: rgba(0, 0, 0, 0.4);
   color: white;
-  border: 1px solid rgb(72, 72, 72);
+  border: 1px solid rgb(110, 106, 106);
   border-radius: 4px;
 }
 
@@ -228,4 +229,125 @@ body {
 
 .que-section button i {
   font-size: 30px;
+}
+
+.input-section {
+  background-color: black;
+  padding: 0 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-top: 15px;
+}
+
+.input-section .input {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.input-section h3 {
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.input-section form input {
+  height: 54px;
+  width: 570px;
+  font-size: 15px;
+  padding-left: 16px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  border: 1px solid rgb(110, 106, 106);
+  border-radius: 4px;
+}
+
+.input-section button {
+  width: 220px;
+  height: 54px;
+  background-color: rgba(255, 0, 0, 0.918);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* footer */
+
+footer {
+  background-color: black;
+  color: #ffffffb3;
+  padding: 70px 140px 40px 140px;
+}
+
+footer a {
+  color: #ffffffb3;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.footer-links ul li {
+  list-style: none;
+  padding-top: 17px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-right: 130px;
+}
+
+.footer-para a {
+  font-size: 16px;
+}
+
+.footer-select {
+  margin-top: 60px;
+  border: 1px solid #ffffff5a;
+  width: 115px;
+  padding: 6px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  gap: 4px;
+}
+
+.footer-select select {
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 15px;
+  padding-right: 7px;
+}
+
+.footer-select i {
+  color: rgba(255, 255, 255, 0.947);
+  font-size: 13px;
+}
+
+.last-para p {
+  margin-top: 40px;
+}
+
+.last-para {
+  margin-bottom: 50px;
+}
+
+.last-para #para {
+  font-size: 14px;
+}
+
+.last-para a {
+  font-size: 14px;
+  color: rgb(10, 140, 227);
 }
